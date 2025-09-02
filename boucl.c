@@ -121,7 +121,7 @@ void main() {
     printf("7-Inversion d'un entier\n");
     printf("8-Suite de Fibonacci\n");
     printf("9-Compteur de chiffres\n");
-    printf("10-Somme des N entiers\n");
+    printf("10-meme3\n");
     printf("0-Quitter\n");
     printf("Choix : ");
     scanf("%d", &a);
@@ -142,7 +142,7 @@ void main() {
         case 3:
             printf("entrez un nombre : ");
             scanf("%d", &x);
-            printf("les some des %d premiers nombres = %d", x, sommeNombres(x));
+            printf("la somme esst %d",sommeNombres(x));
             break;
             
         case 4:
@@ -168,7 +168,7 @@ void main() {
         case 7:
             printf("entrez un nombree : ");
             scanf("%d", &x);
-            printf("linverse de %d = %d\n", x, inversionEntier(x));
+            printf("linverse est  %d", inversionEntier(x));
             break;
             
         case 8:
@@ -180,13 +180,13 @@ void main() {
         case 9:
             printf("entrez un nombre : ");
             scanf("%d", &x);
-            printf("Nombre de chiffres de %d = %d\n", x, compterChiffres(x));
+            printf("nombre de chiffres= %d", compterChiffres(x));
             break;
             
         case 10:
             printf("entrez un nombre : ");
             scanf("%d", &x);
-            printf("Somme des %d premiers entiers = %d\n", x, sommeEntiers(x));
+            printf("somme = %d\n",sommeEntiers(x));
             break;
             
         case 0:
