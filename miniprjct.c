@@ -14,7 +14,7 @@ int main() {
     char F;
 
     do {
-        printf("\t\t1--- -MENU-----\n");
+        printf("\t\t1-----MENU-----\n");
         printf("\t 1. Ajouter un livre au stock\n");
         printf("\t 2. Afficher tous les livres disponibles\n");
         printf("\t 3. Rechercher un livre par titre\n");
@@ -110,7 +110,7 @@ int main() {
                 int Q;
                 printf("vous etre suur !!!!  [Y/N]");
                 scanf("%c", &F);
-            if(F=="Y"){
+            if(F == 'Y' || F == 'y'){
                 printf("Nouveau Quantite a ajouter: ");
                 scanf("%d", &Q);
                 QTE[i]=Q;
@@ -122,9 +122,10 @@ int main() {
             case 5 :
                 printf("donner le titre: ");
                 scanf("%s", &c);
+                getchar();
                 printf("vous etre suur !!!!  [Y/N]");
                 scanf("%c", &F);
-            if(F=="Y"){
+            if(F == 'Y' || F == 'y'){
 
 
                 for (i = 0; i < indice; i++)
